@@ -1,11 +1,9 @@
 body{
-    background-image: url(https://bit.ly/31T73js);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-
-
+   background-image: url(https://bit.ly/2uSMacj);
+   color: wheat;
+   background-size: cover;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
 }
 .footer{
     text-align: center;
@@ -15,12 +13,16 @@ body{
 }
 h2{
     font-size: x-large;
-    color: honeydew;
+    color:white ;
     font-weight: 900;
+    text-align: center;
 }
 h1{
-    font-size: xx-large;
-    font-weight: 900px;
-    color: black;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(8, 22, 22);
     font-stretch: expanded;
+}
+.form{
+    color:yellow;
 }
