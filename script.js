@@ -5,13 +5,16 @@ function output(){
    var mm = parseInt(month);
    var year = document.getElementById("year").Value;
    var yy = parseInt(year);
-   var cc = (yy-1)/100+1;
-   var result = parseInt(((cc/4)-2*cc-1)+((5*yy/4))+((26*(m+1)/10))+dd)%7;
+   var cc = (yy - 1) / 100 + 1;
+   var result = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
    var boy =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Koffi","Kwame"]
    var girl =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
    if (document.getElementById("gender").checked){
-    var gender='female'
+    var gender='male'
+    }
+    else{
+        var gender ='female';
     }
    if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
     alert("INVALID MONTH");
@@ -24,8 +27,13 @@ function output(){
     alert("INVALID DAY")
    }
    else if(Math.ceil(result) == 1 && gender ==='male');{
-    document.getElementById("outcome").innerHTML=("Born on monday.Your akan name is"  +boy[1]);
+    document.getElementById("outcome").innerHTML=
+    ("Born on monday.Your akan name is"  +boy[1]);
    }
+   if (Math.ceil(result) == 2 && gender === 'male') {
+    document.getElementById("outcome").innerHTML = 
+    ("Born on Tuesday ,your akan name is " + boy[2]);
+    }
    else if (Math.ceil(result) == 3 && gender === 'female') {
     document.getElementById("outcome").innerHTML = 
     ("Born on Wednesday,your akan name is " + girl[3]);
@@ -46,6 +54,7 @@ function output(){
     document.getElementById("outcome").innerHTML = 
     ("Born on Sunday,your akan name is " + boy[0]);
     }
+    //all girl names
 
    else if (Math.ceil(result) == 1 && gender === 'female') {
         document.getElementById("outcome").innerHTML = 
