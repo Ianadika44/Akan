@@ -8,7 +8,8 @@
  - Ian Adika
 ## Setup instructions 
  - Have a github account to deploy the project
-
+ - Click the link below for the live project.
+ - https://ianadika44.github.io/Akan/
 ## Technology Used
  - HTML-We used html for the page layout.
  - CSS-We used css and bootstrap for styling the website and making the landing page.
