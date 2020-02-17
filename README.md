@@ -14,3 +14,7 @@
  - HTML-We used html for the page layout.
  - CSS-We used css and bootstrap for styling the website and making the landing page.
  - JAVASCRIPT-We used javascript to make the page interractive
+ ## BDD
+ - There's a form that yo are required to fill and upon filling the form you will get the output of the day born and the name.
+ ## Licence
+ - Licenced under the MIT licence
