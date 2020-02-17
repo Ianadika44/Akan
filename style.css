@@ -13,7 +13,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    font-family: 'Rokkitt', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 23px;
     width: 100%;
    }
@@ -112,7 +112,6 @@ h1 {
    
     .jumbotron {
     height: 10%;
-    background-color: violet;
     }
    }
    .footer{
